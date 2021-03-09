@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+
+    <style>
+        #vidheader{
+            width: 98vw;
+        }
+        #menu{
+            display: flex;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .opt{
+            padding: 20px;
+            display: flex;
+            margin-top: 30px;
+            font-size: 20px;
+            text-decoration: none;
+            height: 40px;
+        }
+        #cover{
+            background-image: url("../img/cover.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 98vw;
+            height: 90vh;
+            display: flex;
+        }
+        #covertext{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            align-self: center;
+            margin-left: 40px;
+            font-size: 16px;
+        }
+        .promise{
+            font-weight: lighter;
+            font-size: 60px;
+            letter-spacing: 5px;
+            word-spacing: 10px;
+        }
+        .know{
+            font-size: 20px;
+        }
+        .blogtext{
+            margin-top: 40px;
+            text-align: center;
+        }
+        #blogposts{
+            display: flex;
+        }
+        .pos{
+            font-size: 20px;
+        }
+        .imgpost{
+            width: 500px;
+        }
+        .post{
+            width: 98vw;
+            height:65vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 12px;
+            word-spacing: 5px;
+        }
+        footer{
+            width: 98vw;
+            font: lighter;
+            text-align: center;   
+            color: #ffffff;
+            background-color: #ff6f61;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <video autoplay loop id="vidheader">
+            <source src="../vid/home.mp4" type="video/mp4">
+            <source src="../vid/home.ogg" type="video.ogg">
+        </video>
+    </header>
+    <main>
+        <div id="menu">
+            <img class="opt" src="../img/logo.png" alt="logo">
+            <a class="opt" href="layout.html">Home</a>
+            <a class="opt" href="layout.html">About</a>
+            <a class="opt" href="layout.html">Contact</a>
+        </div>
+        <div id="cover">
+            <div id="covertext">
+                <h1 class="promise">We Promise To <br> Make You Laugh <br> Cry & Smile.</h1>
+                <p class="know">We know that your wedding day is a special day that you will remember for the rest of your life. <br>We also know that it can be very busy and hectic, which is why we focus on keeping things simple & easy.</p>
+            </div>
+        </div>
+            <h1 class="blogtext">Blog Posts</h1>
+        <div id="blogposts">
+            <div class="post">
+                <img class="imgpost" src="../img/post-1.jpg" alt="post 1">
+                <h1 class="pos">POST 1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipiscing elit. Eum officia <br> consectetur veritatis corporis ipsum possimus deleniti maiores, ea alias <br> blanditiis id sapiente eius dignissimos impedit tenetur adipisci hic est <br> aligendi.</p>
+                <a href="layout.html" class="asd">Read More</a>
+            </div>
+            <div class="post">
+                <img class="imgpost" src="../img/post-2.jpg" alt="post 2">
+                <h1 class="pos">POST 2</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipiscing elit. Eum officia <br> consectetur veritatis corporis ipsum possimus deleniti maiores, ea alias <br> blanditiis id sapiente eius dignissimos impedit tenetur adipisci hic est <br> aligendi.</p>
+                <a href="layout.html" class="asd">Read More</a>
+            </div>
+            <div class="post">
+                <img class="imgpost" src="../img/post-3.jpg" alt="post 3">
+                <h1 class="pos">POST 3</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipiscing elit. Eum officia <br> consectetur veritatis corporis ipsum possimus deleniti maiores, ea alias <br> blanditiis id sapiente eius dignissimos impedit tenetur adipisci hic est <br> aligendi.</p>
+                <a href="layout.html" class="asd">Read More</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Let Us Be A Part of Your Memories</h1>
+        <p>We know that your wedding day is a special day that you will remember for the rest of your life. <br><br> Book Now.</p>
+    </footer>
+    <p class="blogtext">© All Rights Reserved.</p>
+</body>
+</html>
